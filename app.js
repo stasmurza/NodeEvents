@@ -15,13 +15,13 @@ emitter.on("login", function () {
 
 emitter.on("logout", function () {
     let currentDatetime = new Date();
-    let strLog = String(currentDatetime) + " user " + String(++id) + " logged out";
+    let strLog = String(currentDatetime) + " user " + String(id) + " logged out";
     console.log(strLog);
 });
 
 emitter.on("scrollDownAction", function () {
     let currentDatetime = new Date();
-    let strLog = String(currentDatetime) + " user " + String(++id) + " scrolled down";
+    let strLog = String(currentDatetime) + " user " + String(id) + " scrolled down";
     console.log(strLog);
 });
 
