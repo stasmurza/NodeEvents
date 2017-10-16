@@ -1,0 +1,9 @@
+{
+  "name": "users-events",
+  "version": "0.0.0",
+  "description": "UsersEvents",
+  "main": "app.js",
+  "author": {
+    "name": "stasm"
+  }
+}
